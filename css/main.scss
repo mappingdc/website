@@ -52,9 +52,24 @@ $on-laptop:        800px;
 ;
 
 
+.mdc-button
+	{
+	border-radius: 6px;
+	line-height: 1.33;
+	background-color: #d9534f;
+	border-color: #d9534f;
+	color: #fff;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+
 .mdc-container
 	{
 	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
 	}
 
 
@@ -62,15 +77,32 @@ $on-laptop:        800px;
 	{
 	padding-left: 60px;
 	padding-right: 60px;
+	padding-bottom: 30px;
 	border-radius: 6px;
 	text-align: center;
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.66);
+	color: white;
 	margin-top: 50px;
 	margin-bottom: 30px;
+	box-sizing: border-box;
+	h1
+		{
+		font-size: 63px;
+		}
+	p
+		{
+		font-size: 21px;
+		font-weight: 200;
+		}
+	.mdc-button
+		{
+		padding: 14px 24px;
+		}
 	}
 
 
 #Banner
 	{
 	background-image: url("../images/background.png");
+	overflow: hidden;
 	}
