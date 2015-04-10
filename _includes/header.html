@@ -19,9 +19,35 @@
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+        <a class="page-link" href="http://www.meetup.com/mappingdc/">Events</a>
+        <a class="page-link" href="http://mappingdc.org/drupal7">Blog</a>
+        <a class="page-link" href="https://groups.google.com/d/forum/mappingdc">Discuss</a>
+        <a class="page-link" href="https://mappingdc.org/trac/wiki">Ideas</a>
       </div>
     </nav>
 
   </div>
 
 </header>
+
+{% if page.is_front %}
+<div id="Banner">
+	<div class="container">
+		<div class="mdc-hero">
+			<h1>MappingDC</h1>
+			<div class="row">
+				<p class="lead col-md-10 col-md-offset-1">
+Our mission is to improve the quality of OpenStreetMap in the Washington, DC urban area.
+				</p>
+			</div>
+<!--
+<a class="btn btn-success btn-lg" href="/projects">Checkout our Projects</a>
+-->
+<a class="btn btn-danger btn-lg" href="http://www.meetup.com/mappingdc">Come to our Meetups</a>
+<!--
+<a class="btn btn-primary btn-lg" href="http://signup.mappingdc.org">Get our Newsletter</a>
+-->
+		</div>
+	</div>
+</div>
+{% endif %}
