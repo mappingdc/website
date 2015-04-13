@@ -1,13 +1,15 @@
 # Site settings
 title: MappingDC
-email: your-email@domain.com
+email: mappingdc@googlegroups.com
 description: > # this means to ignore newlines until "baseurl:"
   MappingDC is a group of mappers who aim to improve the quality of
   OpenStreetMap in the Washington DC area.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: mappingdc
+github_username:  mappingdc
+facebook_username: 224556447058
+meetup_username:  mappingdc
 
 host: 172.22.128.4
 

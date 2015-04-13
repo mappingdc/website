@@ -42,6 +42,32 @@
             </a>
           </li>
           {% endif %}
+
+          {% if site.facebook_username %}
+          <li>
+            <a href="https://facebook.com/groups/{{ site.facebook_username }}">
+              <span class="icon  icon--facebook">
+                <svg viewBox="0 0 16 16">
+                </svg>
+              </span>
+
+              <span class="username">facebook</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.meetup_username %}
+          <li>
+            <a href="https://meetup.com/{{ site.meetup_username }}">
+              <span class="icon  icon--meetup">
+                <svg viewBox="0 0 16 16">
+                </svg>
+              </span>
+
+              <span class="username">meetup</span>
+            </a>
+          </li>
+          {% endif %}
         </ul>
       </div>
 
