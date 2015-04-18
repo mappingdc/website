@@ -2,23 +2,14 @@
 layout: default
 is_front: true
 ---
-
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+	<h1>
+Want to Help OpenStreetMap?
+	</h1>
+	<h2>
+Great!  We could use your help.
+	</h2>
+	<p class='lead'>
+We are a group of volunteer mappers who aim to improve the OpenStreetMap in the DC area.  We also aim to teach others about the OSM ecosystem, data analytics, cartography, and GIS.  We gather monthly at meetups to focus on one area of our city.
+	</p>
 </div>
