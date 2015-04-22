@@ -94,9 +94,10 @@ $on-laptop:        800px;
 		font-size: 21px;
 		font-weight: 200;
 		}
-	.mdc-button
+	.mdc-button, .mdc-button:visited
 		{
 		padding: 14px 24px;
+		color: white;
 		}
 	}
 
