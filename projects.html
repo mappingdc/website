@@ -10,8 +10,6 @@ is_front: true
   <ul class="project-list">
     {% for project in site.projects %}
       <li>
-        <span class="projecgt-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
           <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
         </h2>

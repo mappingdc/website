@@ -16,3 +16,7 @@ host: 172.22.128.4
 
 # Build settings
 markdown: kramdown
+
+collections:
+  projects:
+    output: true
