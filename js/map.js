@@ -7,7 +7,7 @@ $(document).ready( function()
      // Change this url to use different set of map tiles
      var theTiles = 'http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png';
      var theSubdomains = ['a', 'b', 'c', 'd'];
-     map.setView( new L.LatLng( 56, 11 ), 7 ).addLayer
+     map.setView( new L.LatLng( 38.9, -77.05 ), 11 ).addLayer
           ( new L.TileLayer
                ( theTiles
                ,    { maxZoom: 18
