@@ -65,25 +65,35 @@ $on-laptop:        800px;
 	}
 
 
+.mdc-map-container
+     {
+     position: relative;
+     height: 300px;
+     border-bottom: 1px solid #e8e8e8;
+     }
+
 .mdc-container
 	{
-	width: 70%;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
+     position: absolute;
+     left: 0;
+     right: 0;
 	}
 
 
 .mdc-hero
 	{
-	padding-left: 60px;
-	padding-right: 60px;
+	padding-left: 15px;
+	padding-right: 15px;
 	padding-bottom: 30px;
 	border-radius: 6px;
 	text-align: center;
-	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.66);
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
 	color: white;
-	margin-top: 50px;
-	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	box-sizing: border-box;
 	h1
 		{
@@ -111,5 +121,7 @@ $on-laptop:        800px;
 
 #map
      {
-     height: 400px;
+     position: absolute;
+     height: 100%;
+     width: 100%;
      }
