@@ -62,19 +62,22 @@ $on-laptop:        800px;
 	font-weight: 400;
 	text-align: center;
 	vertical-align: middle;
+	box-sizing: border-box;
+	margin: 5px;
+	padding: 10px 20px;
 	}
 
 
 .mdc-map-container
      {
      position: relative;
-     height: 300px;
+     height: 400px;
      border-bottom: 1px solid #e8e8e8;
      }
 
 .mdc-container
 	{
-	width: 50%;
+	width: 85%;
 	margin-left: auto;
 	margin-right: auto;
      position: absolute;
@@ -104,9 +107,8 @@ $on-laptop:        800px;
 		font-size: 21px;
 		font-weight: 200;
 		}
-	.mdc-button, .mdc-button:visited
+	a, a:visited
 		{
-		padding: 14px 24px;
 		color: white;
 		}
 	}
