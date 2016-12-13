@@ -10,7 +10,8 @@ twitter_username: mappingdc
 github_username:  mappingdc
 facebook_username: 224556447058
 meetup_username:  mappingdc
-gitter_username:  mappingdc
+#gitter_username:  mappingdc
+slack_username:  mappingdc
 
 exclude: bin
 
