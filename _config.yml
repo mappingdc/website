@@ -4,7 +4,7 @@ email: mappingdc@googlegroups.com
 description: > # this means to ignore newlines until "baseurl:"
   MappingDC is a group of mappers who aim to improve the quality of
   OpenStreetMap in the Washington DC area.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://mappingdc.org"
 twitter_username: mappingdc
 github_username:  mappingdc
